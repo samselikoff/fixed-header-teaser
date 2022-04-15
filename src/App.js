@@ -28,6 +28,7 @@ export default function App() {
   useEffect(() => {
     return scrollY.onChange((latest) => {
       if (latest < 0) return;
+
       let isScrollingDown = scrollY.getPrevious() - latest < 0;
       let scrollDirection = isScrollingDown ? "down" : "up";
       let currentPixelsScrolled = pixelsScrolled.get();

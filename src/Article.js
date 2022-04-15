@@ -22,7 +22,7 @@ export default function Article() {
         totally blowing up on Twitter The Daily mthomps Jay Rosen.
       </p>
 
-      <div className="py-6 lg:-mx-16 overflow-hidden">
+      <div className="py-6 -mx-4 lg:-mx-12 overflow-hidden">
         <div className="relative w-full aspect-video">
           <img src="/picture.jpg" alt="Space" />
         </div>
